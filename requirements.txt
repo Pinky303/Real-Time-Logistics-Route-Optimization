@@ -1,0 +1,36 @@
+# Core Databricks and Spark dependencies
+pyspark>=3.5.0
+delta-spark>=3.0.0
+
+# AWS SDK for Kinesis integration
+boto3>=1.34.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+pyarrow>=14.0.0
+
+# Visualization (optional for local development)
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.17.0
+
+# Testing
+pytest>=7.4.0
+pytest-spark>=0.6.0
+
+# Development utilities
+ipython>=8.12.0
+jupyter>=1.0.0
+
+# Type hints and code quality
+mypy>=1.7.0
+black>=23.12.0
+flake8>=6.1.0
+
+# Databricks utilities (pre-installed on Databricks, listed for reference)
+# databricks-sdk>=0.18.0
+# dbutils (included in Databricks Runtime)
+
+# Note: On Databricks, install with:
+# %pip install -r requirements.txt
